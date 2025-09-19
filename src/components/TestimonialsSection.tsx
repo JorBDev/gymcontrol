@@ -44,13 +44,13 @@ const TestimonialsSection = () => {
 
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <Card 
+            <Card
               key={index}
               className="bg-card-alt border border-border/20 p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 relative overflow-hidden"
             >
               {/* Quote Icon */}
-              <Quote className="absolute top-4 right-4 w-8 h-8 text-primary/20" />
-              
+              <Quote className="absolute top-4 right-4 w-8 h-8 text-primary" />
+
               {/* Rating */}
               <div className="flex gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
@@ -75,7 +75,7 @@ const TestimonialsSection = () => {
                   <div className="text-sm text-muted-foreground">
                     {testimonial.gym}
                   </div>
-                  <div className="text-xs text-muted-foreground">
+                  <div className="text-xs text-gym-yellow">
                     {testimonial.location}
                   </div>
                 </div>
@@ -89,7 +89,7 @@ const TestimonialsSection = () => {
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-6 py-3 rounded-full">
             <div className="flex -space-x-2">
               {['JM', 'LR', 'SC', 'MG', 'AP'].map((initial, i) => (
-                <div 
+                <div
                   key={i}
                   className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-xs font-bold border-2 border-background-alt"
                 >

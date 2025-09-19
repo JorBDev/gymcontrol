@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/gym-dashboard-hero.jpg';
+import heroImage from '@/assets/gym-dashboard-hero.png';
 import { ArrowDown } from 'lucide-react';
 
 const HeroSection = () => {
