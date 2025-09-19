@@ -89,7 +89,7 @@ const LaunchOfferSection = () => {
           {/* CTA */}
           <Button
             className="cta-button text-xl px-12 py-6 w-full md:w-auto"
-            onClick={() => window.open('https://wa.me/573001234567?text=Hola,%20quiero%20ser%20parte%20del%20Programa%20de%20Clientes%20Fundadores%20de%20GymControl', '_blank')}
+            onClick={() => window.open('https://wa.me/573013207669?text=Hola,%20quiero%20ser%20parte%20del%20Programa%20de%20Clientes%20Fundadores%20de%20GymControl', '_blank')}
           >
             Quiero Ser Cliente Fundador
           </Button>
