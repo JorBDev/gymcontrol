@@ -22,20 +22,20 @@ const Footer = () => {
             <h3 className="text-lg font-bold text-foreground">Contacto</h3>
             <div className="space-y-3">
               <a
-                href="https://wa.me/573013207669"
+                href="https://wa.me/573145416559"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <MessageCircle className="w-5 h-5" />
-                <span>+57 301 320 7669</span>
+                <span>+57 314 541 6559</span>
               </a>
               <a
-                href="mailto:jorgeboterodev@gmail.com"
+                href="mailto:gymcontrol.soporte@gmail.com"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                <span>jorgeboterodev@gmail.com</span>
+                <span>gymcontrol.soporte@gmail.com</span>
               </a>
             </div>
           </div>

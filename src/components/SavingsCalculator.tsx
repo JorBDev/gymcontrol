@@ -193,7 +193,7 @@ const SavingsCalculator = () => {
               <div className="text-center">
                 <Button
                   className="w-full cta-button"
-                  onClick={() => window.open('https://wa.me/573013207669', '_blank')}
+                  onClick={() => window.open('https://wa.me/573145416559', '_blank')}
                 >
                   Quiero Agendar mi Demo Gratuita
                 </Button>
